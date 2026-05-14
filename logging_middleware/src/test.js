@@ -1,7 +1,6 @@
-const { Log } = require("./logger");
+import { Log } from "./logger.js";
 
 const testLogger = async () => {
-
   const response = await Log(
     "backend",
     "info",
